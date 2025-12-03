@@ -1,5 +1,5 @@
 import { Eval, Exception, FS, log, Process, Query, Store } from "@yao/runtime";
-import { Excel } from "excel";
+import { Excel } from "./excel";
 import { Model } from "./model";
 
 /**

@@ -11,6 +11,7 @@
   "optional": {
     "hideNotification": true,
     "hideSetting": false,
+    "layout": "Chat",
     /**
      * Admin:
      * - PATH:        {"api":"/neo"}

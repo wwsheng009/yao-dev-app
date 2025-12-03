@@ -1,4 +1,4 @@
-logs/
+logs/*
 .DS_Store
 data/*
 !data/excel
@@ -6,7 +6,7 @@ data/*
 !data/types
 yao-0.10.3-darwin-amd64
 public/yao
-db
+db/*
 !data/assets
 dist
 .tmp
@@ -20,3 +20,7 @@ tables/product.tab.yao
 models/product.mod.yao
 openapi/certs/apple
 models/test_model_*_file.mod.yao
+debug.log
+.env
+!logs/.gitkeep
+!db/.gitkeep

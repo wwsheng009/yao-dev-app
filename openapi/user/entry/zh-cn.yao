@@ -41,7 +41,7 @@
   },
 
   // 注册设置
-  "invite_required": true, // 是否需要邀请才能注册
+  "invite_required": false, // 是否需要邀请才能注册
   "auto_login": true, // 注册后是否自动登录
   "role": "guest", // 新用户默认角色
   "type": "free_zh", // 新用户默认类型

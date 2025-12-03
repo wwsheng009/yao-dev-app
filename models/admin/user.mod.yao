@@ -163,7 +163,9 @@
       "validations": [
         {
           "method": "typeof",
-          "args": ["integer"],
+          "args": [
+            "string"
+          ],
           "message": "{{input}}Error, {{label}} should be Integer"
         },
         {

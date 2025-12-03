@@ -1,16 +1,29 @@
 [
   {
+    "role_id": "system:root",
+    "name": "System Root",
+    "description": "Admin role",
+    "permissions": [
+      "system:admin",
+      "*:*:*",
+      "*:*:*:*",
+      "entry:register:authenticated",
+      "builtin:entry:verification"
+    ]
+  },
+  {
     "role_id": "admin",
     "name": "Admin",
     "description": "Admin role",
-    "permissions": { "scopes": ["system:admin"] }
+    "permissions": [
+      "system:admin"
+    ]
   },
   {
     "role_id": "guest",
     "name": "Guest",
     "description": "Guest role",
-    "permissions": {
-      "scopes": [
+    "permissions": [
         "dsl:read:own",
         "dsl:write:own",
         "file:read:own",
@@ -18,8 +31,9 @@
         "dsl:execute:own",
         "user:read:own",
         "user:write:own",
-        "chat:completions"
+        "chat:completions",
+        "entry:register:authenticated",
+        "builtin:entry:verification"
       ]
-    }
   }
 ]

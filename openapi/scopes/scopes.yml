@@ -67,3 +67,5 @@ endpoints:
 
   # MCP Server Management - Read operations allowed
   - GET /mcp/* allow
+
+  - POST /chat/* allow

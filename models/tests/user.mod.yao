@@ -10,17 +10,12 @@
     {
       "label": "厂商",
       "name": "manu_id",
-      "type": "bigInteger",
+      "type": "integer",
       "length": 50,
       "comment": "所属厂商",
       "nullable": true,
       "index": true,
       "validations": [
-        {
-          "method": "typeof",
-          "args": ["integer"],
-          "message": "{{input}}类型错误, {{label}}应为数字"
-        },
         {
           "method": "min",
           "args": [0],

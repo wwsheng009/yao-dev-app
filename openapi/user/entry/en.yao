@@ -49,7 +49,7 @@
   },
 
   // Registration settings
-  "invite_required": true, // Whether to require invite to register
+  "invite_required": false, // Whether to require invite to register
   "auto_login": true, // Whether to auto login after register
   "role": "guest", // Default role for new users
   "type": "free", // Default type for new users

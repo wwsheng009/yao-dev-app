@@ -8,7 +8,10 @@
       "*:*:*",
       "*:*:*:*",
       "entry:register:authenticated",
-      "builtin:entry:verification"
+      "builtin:entry:verification",
+      "agent:admin",
+      "agent:read",
+      "llm:read"
     ]
   },
   {
@@ -33,7 +36,9 @@
         "user:write:own",
         "chat:completions",
         "entry:register:authenticated",
-        "builtin:entry:verification"
+        "builtin:entry:verification",
+        "llm:read",
+        "agent:admin"
       ]
   }
 ]

@@ -1,7 +1,7 @@
 # Translate to English
 # yao run aigcs.translate 你好
 name: Translate
-connector: deepseek.v3
+connector: openai.gpt-4o-mini
 prompts:
   - role: system
     content: |

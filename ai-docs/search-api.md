@@ -104,11 +104,11 @@ interface SearchIntent {
     }
   },
 
-  "knowledge_base": {
+  "kb": {
     "collections": ["expense_policy", "travel_guidelines"]
   },
 
-  "database": {
+  "db": {
     "models": ["agents.expense.voucher", "agents.expense.expense"]
   }
 }

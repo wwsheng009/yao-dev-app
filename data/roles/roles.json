@@ -11,7 +11,13 @@
       "builtin:entry:verification",
       "agent:admin",
       "agent:read",
-      "llm:read"
+      "llm:read",
+      "sessions:read:all",
+      "completions:write:all",
+      "trace:traces:read:own",
+      "trace:traces:read:team",
+      "trace:traces:read:all",
+      "stats:read:all"
     ]
   },
   {
@@ -27,18 +33,24 @@
     "name": "Guest",
     "description": "Guest role",
     "permissions": [
-        "dsl:read:own",
-        "dsl:write:own",
-        "file:read:own",
-        "file:write:own",
-        "dsl:execute:own",
-        "user:read:own",
-        "user:write:own",
-        "chat:completions",
-        "entry:register:authenticated",
-        "builtin:entry:verification",
-        "llm:read",
-        "agent:admin"
-      ]
+      "dsl:read:own",
+      "dsl:write:own",
+      "file:read:own",
+      "file:write:own",
+      "dsl:execute:own",
+      "user:read:own",
+      "user:write:own",
+      "chat:completions",
+      "entry:register:authenticated",
+      "builtin:entry:verification",
+      "llm:read",
+      "agent:admin",
+      "sessions:read:all",
+      "completions:write:all",
+      "trace:traces:read:own",
+      "trace:traces:read:team",
+      "trace:traces:read:all",
+      "stats:read:all"
+    ]
   }
 ]

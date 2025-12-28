@@ -1,7 +1,7 @@
 # Global scopes configuration
 
 # Default action for unmatched API endpoints
-default: deny # Options: deny / allow
+default: allow # Options: deny / allow
 
 # Public endpoints (accessible without authentication)
 public:

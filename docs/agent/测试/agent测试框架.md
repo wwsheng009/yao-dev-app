@@ -1,3 +1,9 @@
+---
+name: agent测试框架
+description: Overview of Agent Test Framework, explaining input modes (Direct Message, JSONL) and stability analysis.
+license: Complete terms in LICENSE.txt
+---
+
 # Agent Test Framework
 
 A testing framework for Yao AI agents with support for assertions, stability analysis, and CI integration.

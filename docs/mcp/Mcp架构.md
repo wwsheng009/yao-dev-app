@@ -1,3 +1,9 @@
+---
+name: Mcp架构
+description: Complete guide for using MCP in Yao applications, covering architecture, configuration, and Go/JavaScript APIs.
+license: Complete terms in LICENSE.txt
+---
+
 # MCP (Model Context Protocol) for Yao
 
 Complete guide for using MCP in Yao applications, covering configuration, Go API, and JavaScript API.

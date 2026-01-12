@@ -1,4 +1,10 @@
-钩子（Hook）的设计与实现，是一个非常核心且强大的功能。它构成了 Yao 智能体系统的“动态大脑”。
+---
+name: hook
+description: Analysis of Agent Hooks (specifically `Create`), their role in dynamic runtime adjustment, function signatures, and return values.
+license: Complete terms in LICENSE.txt
+---
+
+# 钩子（Hook）的设计与实现，是一个非常核心且强大的功能。它构成了 Yao 智能体系统的“动态大脑”。
 
 基于你提供的 `yao` 源码（Golang）和 `yao-dev-app` 脚本（TypeScript），我将从**功能定义、参数与返回值、底层架构、以及实际应用**四个维度为你深入剖析。
 

@@ -1,3 +1,9 @@
+---
+name: table
+description: Analysis of Yao Table Widget architecture and configuration, focusing on DSL mapping, binding mechanisms, and "Convention over Configuration".
+license: Complete terms in LICENSE.txt
+---
+
 # Yao Table Widget 技术架构与配置分析报告
 
 ## 1\. 核心架构概述

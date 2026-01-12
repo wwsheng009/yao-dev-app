@@ -1,8 +1,11 @@
+---
+name: pipe
+description: Configuration guide for Yao Pipe, a logic orchestration mechanism for complex flows, human-machine interaction, and AI tasks.
+license: Complete terms in LICENSE.txt
+---
 Pipe 是 Yao 引擎中用于处理复杂逻辑编排的机制，特别适用于需要人机交互（User Input）或 AI 多轮对话的场景，它是 Flow 的一种替代方案，支持上下文挂起与恢复。
 
 以下是详细的配置说明文档：
-
------
 
 # Yao Pipe (管道) 配置与使用指南
 

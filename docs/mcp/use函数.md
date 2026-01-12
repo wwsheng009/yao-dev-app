@@ -1,3 +1,9 @@
+---
+name: use函数
+description: Documentation for the `Use` function, a universal resource management tool for automatic cleanup in Yao JavaScript environment.
+license: Complete terms in LICENSE.txt
+---
+
 # Use Function
 
 Universal resource management function that automatically calls `__release()` on objects after use, ensuring immediate resource cleanup without waiting for V8 garbage collection.

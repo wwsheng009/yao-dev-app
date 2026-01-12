@@ -1,4 +1,10 @@
 
+---
+name: connector
+description: Guide to Yao Connector configuration, supporting databases (MySQL, Redis, etc.) and AI models, mapping DSL to Golang implementation.
+license: Complete terms in LICENSE.txt
+---
+
 # Yao Connector 配置指南
 
 ## 1\. 概述

@@ -1,3 +1,9 @@
+---
+name: mcp配置指引
+description: Guide to defining Yao MCP servers, mapping Yao Processes to MCP tools and resources.
+license: Complete terms in LICENSE.txt
+---
+
 # Yao MCP Servers
 
 This directory contains MCP (Model Context Protocol) server definitions that expose Yao Processes as MCP tools.

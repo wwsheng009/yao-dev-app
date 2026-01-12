@@ -1,3 +1,9 @@
+---
+name: agent测试
+description: Guide to Agent Test Package, covering quick start, usage of `yao agent test` command, and batch testing with JSONL.
+license: Complete terms in LICENSE.txt
+---
+
 # Agent Test Package Design
 
 ## Overview

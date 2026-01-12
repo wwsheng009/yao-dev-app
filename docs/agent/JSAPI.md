@@ -1,3 +1,9 @@
+---
+name: JSAPI
+description: Documentation for the Context JavaScript API, detailing the Context object, properties, and methods for agent interaction.
+license: Complete terms in LICENSE.txt
+---
+
 # Context JavaScript API Documentation
 
 ## Overview

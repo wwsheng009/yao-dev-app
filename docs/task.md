@@ -1,3 +1,9 @@
+---
+name: task
+description: Guide to configuring asynchronous Tasks in Yao, utilizing Worker Pools and Queues for background processing.
+license: Complete terms in LICENSE.txt
+---
+
 # Tasks 异步任务配置指南
 
 Yao 框架中的 Task 模块用于处理异步任务。它基于 Golang 的 `Channel` 和 `Goroutine` 实现了一个内存级别的 Worker Pool（工作池）。通过定义 Task，你可以将耗时的操作（如发送邮件、生成报表、AI 推理等）放入队列中异步执行，从而不阻塞主线程。

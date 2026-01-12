@@ -1,3 +1,9 @@
+---
+name: schedule
+description: Guide to configuring periodic tasks in Yao using Schedule DSL, supporting both synchronous processes and asynchronous tasks.
+license: Complete terms in LICENSE.txt
+---
+
 # Schedules 配置指南
 
 Yao 框架中的 Schedule 模块基于 `github.com/robfig/cron` 实现，允许开发者通过配置 DSL (`.sch.yao`) 来定义周期性执行的任务。Schedule 既可以直接执行一个 **Process (处理器)**，也可以将任务分发给 **Task (异步任务队列)**。

@@ -1,3 +1,9 @@
+---
+name: BUILTIN_TYPES
+description: Definition of standardized built-in message types (text, tool_call, error, etc.) and their Props structures.
+license: Complete terms in LICENSE.txt
+---
+
 # Built-in Message Types
 
 Built-in message types are standardized types that all adapters must support. These types have predefined Props structures to ensure consistency across different output formats.

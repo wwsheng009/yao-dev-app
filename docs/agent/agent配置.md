@@ -1,4 +1,10 @@
-Agent配置文件的深度技术分析、代码映射及加载流程图解。
+---
+name: agent配置
+description: Deep analysis of Agent configuration (`agent.yml`, `models.yml`), covering global orchestration, session storage, and model capabilities.
+license: Complete terms in LICENSE.txt
+---
+
+# Agent配置文件的深度技术分析、代码映射及加载流程图解。
 
 ---
 

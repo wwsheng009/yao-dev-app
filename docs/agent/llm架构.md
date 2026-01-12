@@ -1,4 +1,10 @@
-Yao 引擎中 **LLM 提供商架构的一次重大重构**。这一设计的核心在于引入了 **能力适配器模式 (Capability Adapters Pattern)**，旨在解决日益复杂的 LLM 模型差异化（如 Vision、ToolCall、Reasoning）与统一 API 接口之间的矛盾。
+---
+name: llm架构
+description: Analysis of Yao's LLM architecture refactoring, introducing the Capability Adapters Pattern for decoupling API formats from model capabilities.
+license: Complete terms in LICENSE.txt
+---
+
+# Yao 引擎中 LLM 提供商架构的一次重大重构
 
 以下是对该架构的深度技术分析。
 

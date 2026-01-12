@@ -1,4 +1,10 @@
-深入剖析 Yao 引擎中 AI Agent 的 `Trace` 机制。
+---
+name: trace对象
+description: Documentation for Yao Agent Trace system, detailing its design principles, lifecycle management within Context, and usage for observability.
+license: Complete terms in LICENSE.txt
+---
+
+# 深入剖析 Yao 引擎中 AI Agent 的 `Trace` 机制
 
 在构建复杂的 AI 应用时，可观测性（Observability）至关重要。Yao 引擎通过 `Context` 对象集成了强大的 `Trace`（追踪）功能，用于记录 Agent 执行过程中的每一步操作、耗时、输入输出以及 LLM 的交互细节。
 

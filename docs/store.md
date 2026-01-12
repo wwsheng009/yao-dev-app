@@ -1,3 +1,9 @@
+---
+name: store
+description: Guide to Store configuration in Yao, abstracting Key-Value storage (Redis, MongoDB, LRU, etc.) with unified interfaces.
+license: Complete terms in LICENSE.txt
+---
+
 # Stores 配置与使用指南
 
 ## 1\. 概述

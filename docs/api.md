@@ -1,3 +1,9 @@
+---
+name: api
+description: Analysis of Yao API engine, configuration mapping from DSL to Golang structs, and request processing lifecycle.
+license: Complete terms in LICENSE.txt
+---
+
 # Gou API 引擎与配置映射分析报告
 
 ## 1\. 概述

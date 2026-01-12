@@ -1,3 +1,9 @@
+---
+name: form
+description: Deep analysis of Yao Form DSL parsing, covering core struct mapping, action behavior, and layout definitions.
+license: Complete terms in LICENSE.txt
+---
+
 # Yao Form DSL 解析深度分析报告
 
 本文档分析Yao 引擎（Golang）内部的映射关系与处理逻辑。

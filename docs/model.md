@@ -1,3 +1,9 @@
+---
+name: model
+description: Guide to Yao Model configuration and usage, mapping DSL to database structures with auto-migration and CRUD support.
+license: Complete terms in LICENSE.txt
+---
+
 # Yao Model 配置与使用指南
 
 在 Yao 引擎中，**Model (模型)** 是对数据结构的抽象定义。它通过 DSL (Domain Specific Language) 描述数据表结构、字段类型、校验规则以及加密方式。Yao 的底层引擎（Golang）会解析这些 DSL，自动在数据库中创建或更新表结构（Auto Migration），并提供了一套完整的 CRUD 接口。

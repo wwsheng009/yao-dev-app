@@ -24,3 +24,4 @@ debug.log
 .env
 !logs/.gitkeep
 !db/.gitkeep
+outdir/

@@ -9,9 +9,6 @@
     "resources": { "subscribe": false, "listChanged": false }
   },
 
-  // === Mapping ===
-  "mapping": "mapping.search",
-
   // === Tools ===
   "tools": {
     "web_search": "scripts.tests.search.WebSearch",

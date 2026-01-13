@@ -77,6 +77,8 @@ Yao exposes processes as MCP tools and resources using the **Process Transport**
 
 ## File Structure
 
+需要注意的是：mcp有两种作用范围，一种是全局的mcp定义，放在应用的根目录`/mcps`下，另外一种是针对某一个assistant的mcp定义，放在assistants目录`/assistants/assistant_id/mcps`下。mcp
+
 ```
 mcps/
 ├── README.md                    # This file

@@ -257,7 +257,7 @@ function Next(ctx: agent.Context, payload: agent.Payload): agent.Next {
 
     switch (intent) {
       case "query":
-        ctx.space.Set("choose_prompt", "query");
+        ctx.memory.Set("choose_prompt", "query");
         return {
           delegate: { agent_id: "myassistant", messages: payload.messages },
         };

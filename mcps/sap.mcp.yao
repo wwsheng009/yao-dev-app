@@ -1,0 +1,16 @@
+{
+  "id": "test",
+  "name": "Test MCP Client",
+  "label": "Test MCP Client",
+  "description": "A test MCP client for unit testing",
+  "tags": ["test", "mcp"],
+  "transport": "stdio",
+  "command": "node",
+  "arguments": ["e:/mcps/mcp-abap-abap-adt-api/dist/index.js"],
+  "env": {
+    "MCP_TEST": "true"
+  },
+  "enable_sampling": true,
+  "enable_roots": false,
+  "timeout": "30s"
+}

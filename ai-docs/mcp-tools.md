@@ -19,10 +19,6 @@ MCP tool names use a double-underscore separator:
 
 **Naming constraint**: MCP server_id MUST NOT contain underscores (`_`). Only dots (`.`), letters, numbers, and hyphens (`-`) are allowed.
 
-
-当由llm调用mcp工具名时，mcp tool 会解析成server id与tool name。工具名称解析中，会把serverid与tool进行拆分。比如`github_enterprise__search` 会解析成 server: `github.enterprise` 与 tool: `search`。所有的下划线会被替换成句号，所以server_id名称中不能使用句号。
-
-
 ## Configuring MCP Servers
 
 ### In Assistant Configuration (package.yao)
@@ -32,10 +28,10 @@ MCP tool names use a double-underscore separator:
   "mcp_servers": {
     "servers": [
       "agents.expense.tools",
-      { "server_id": "external_server", "tools": ["tool1", "tool2"] },
+      { "server_id": "server", "tools": ["tool1", "tool2"] },
       {
-        "server_id": "another_server",
-        "tools": ["specific_tool"],
+        "server_id": "server",
+        "tools": ["specificTool"],
         "resources": ["resource://data"]
       }
     ]
@@ -52,7 +48,7 @@ function Create(ctx: agent.Context, messages: agent.Message[]): agent.Create {
     messages,
     mcp_servers: [
       { server_id: "agents.expense.tools", tools: ["recognize"] },
-      { server_id: "search_engine" }, // All tools，没有配置tools，会使有server_id下所有的tool。
+      { server_id: "search.engine" }, // All tools，没有配置tools，会使有server_id下所有的tool。
     ],
   };
 }
@@ -68,8 +64,11 @@ function Create(ctx: agent.Context, messages: agent.Message[]): agent.Create {
 
 ## Implementing MCP Tools
 
+创建一个mcp 工具。
+
 ### Tool Script (src/tools.ts)
 
+创建工具脚本
 ```typescript
 // @ts-nocheck
 

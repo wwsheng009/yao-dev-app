@@ -385,6 +385,9 @@ Maps to: `process.Run("models.customer.Create", "John", "john@example.com", "act
 
 #### Resource Schema (`resources/*.res.yao`)
 
+- 定义mcp客户在请求resource时如何解析请求中的参数
+- 定义如何把resource请求的参数映射到process的参数
+
 ```json
 {
   "uri": "customers://{id}",

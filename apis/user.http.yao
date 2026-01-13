@@ -7,8 +7,10 @@
     {
       "path": "Get",
       "method": "GET",
-      "process": "models.user.Get",
-      "in": [],
+      "process": "models.user.find",
+      "in": [
+        1
+      ],
       "out": { "status": 200, "type": "application/json" }
     }
   ]

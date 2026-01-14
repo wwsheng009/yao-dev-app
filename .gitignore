@@ -25,3 +25,4 @@ debug.log
 !logs/.gitkeep
 !db/.gitkeep
 outdir/
+.vscode/yao-docs
